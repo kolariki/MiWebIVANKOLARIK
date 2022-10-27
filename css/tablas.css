@@ -29,10 +29,31 @@ a { text-decoration: none; }
 #principal p { margin: 0.5em 5em; text-align: justify; font-size: 0.9em; }
 #principal sup { font-size: 0.5em; }
 /*título de la lista*/
-#principal h3 { color: navy; margin: 0.5em; font-size: 1.3em; }
+#principal h3 { color: navy; margin: 0.5em; font-size: 1.3em; text-align: left; }
 /*tabla: aspectos generales*/
 table { border: 4px double blue; width: 70%; border-collapse: collapse;   }
 table th, table td { border: 1px solid blue; padding: 0.5em; }
 /*estilo de celdas*/
 table th { color: purple; }
 table td { text-align: left; padding-left: 2em; }
+.mienlace { width: 30%; margin: 20px 1%; float: left; background-color: aqua }
+ 
+.mienlace p { margin: 10px 60px; }
+
+#favoritos {width: 90%;  }
+
+h3 {
+    text-align: left; 
+    color: olive; 
+    font-size: 25px; 
+    font-family: stencil, impact, "times new roman";
+    margin: 20px 100px; 
+}
+
+p { 
+    text-align: justify; 
+    margin: 1em 10em; 
+    font-family: verdana, nimrod, tahoma; 
+    font-size: 14px; 
+    color: navy; 
+}
